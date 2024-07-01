@@ -4,7 +4,6 @@
 #include<algorithm>
 using namespace std;
 
-int map[100][100];
 int m,n,k;//m은 y축, n은 x축 
 int dx[]={0,0,-1,1};//상하좌우 
 int dy[]={1,-1,0,0};//상하좌우 

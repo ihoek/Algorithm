@@ -23,7 +23,7 @@ void bfs(int start_x, int start_y) {
         int y = q.front().second;
         q.pop();
         
-        for(int i=0;i<4;++i){//상,하,좌,우 
+        for(int i=0;i<4;i++){//상,하,좌,우 
 			int xp = x+dx[i];
 			int yp = y+dy[i];
 		
@@ -43,10 +43,10 @@ int main() {
 	cin >> n >> m;
 	
 	
-	for(int i=0;i<n;++i){
+	for(int i=0;i<n;i++){
 		string str;
 		cin >> str;
-		for(int j=0;j<m;++j){
+		for(int j=0;j<m;j++){
 			arr[i][j] = str[j]-'0';
 		}
 	}
